@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>FUTURE DATA // SYSTEM</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Background effects -->
+    <div class="grid-background"></div>
+    <div class="glow glow-1"></div>
+    <div class="glow glow-2"></div>
+
+    <div class="main-container">
+
+        <!-- HEADER -->
+
+        <header>
+
+            <div class="logo">
+                <span class="logo-icon">◈</span>
+                <div>
+                    <h1>DATA<span>CORE</span></h1>
+                    <p>INTELLIGENT DATA SYSTEM</p>
+                </div>
+            </div>
+
+            <div class="system-status">
+                <span class="status-dot"></span>
+                SYSTEM ONLINE
+            </div>
+
+        </header>
+
+
+        <!-- TITLE -->
+
+        <section class="hero">
+
+            <p class="system-label">// DATABASE ANALYTICS</p>
+
+            <h2>
+                AGE GROUP &
+                <span>GENDER</span>
+                DATA
+            </h2>
+
+            <p class="hero-description">
+                Real-time dataset visualization powered by
+                Google Apps Script API.
+            </p>
+
+        </section>
+
+
+        <!-- STATISTICS -->
+
+        <section class="stats">
+
+            <div class="stat-card">
+
+                <div class="stat-icon">◉</div>
+
+                <div>
+                    <p>TOTAL RECORDS</p>
+                    <h3 id="totalCount">--</h3>
+                </div>
+
+            </div>
+
+
+            <div class="stat-card">
+
+                <div class="stat-icon">◈</div>
+
+                <div>
+                    <p>MALE</p>
+                    <h3 id="maleCount">--</h3>
+                </div>
+
+            </div>
+
+
+            <div class="stat-card">
+
+                <div class="stat-icon">◇</div>
+
+                <div>
+                    <p>FEMALE</p>
+                    <h3 id="femaleCount">--</h3>
+                </div>
+
+            </div>
+
+
+            <div class="stat-card">
+
+                <div class="stat-icon">⬡</div>
+
+                <div>
+                    <p>STATUS</p>
+                    <h3 class="online-text">ONLINE</h3>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- SEARCH -->
+
+        <section class="control-panel">
+
+            <div class="search-box">
+
+                <span class="search-icon">⌕</span>
+
+                <input
+                    type="text"
+                    id="searchInput"
+                    placeholder="SEARCH DATABASE..."
+                >
+
+            </div>
+
+            <div class="data-info">
+                DATA STREAM: ACTIVE
+            </div>
+
+        </section>
+
+
+        <!-- TABLE -->
+
+        <section class="data-panel">
+
+            <div class="panel-header">
+
+                <div>
+                    <span class="panel-symbol">▣</span>
+                    DATABASE RECORDS
+                </div>
+
+                <span class="record-status">
+                    ● LIVE
+                </span>
+
+            </div>
+
+
+            <div id="loading">
+                <div class="loader"></div>
+                CONNECTING TO DATA CORE...
+            </div>
+
+
+            <div class="table-container">
+
+                <table id="dataTable">
+
+                    <thead>
+
+                        <tr>
+                            <th>ID</th>
+                            <th>NAME</th>
+                            <th>AGE</th>
+                            <th>PROFESSION</th>
+                            <th>AGE GROUP</th>
+                            <th>GENDER</th>
+                        </tr>
+
+                    </thead>
+
+                    <tbody id="tableBody"></tbody>
+
+                </table>
+
+            </div>
+
+        </section>
+
+
+        <!-- FOOTER -->
+
+        <footer>
+
+            <div>
+                DATA CORE v1.0
+            </div>
+
+            <div>
+                GOOGLE APPS SCRIPT API
+            </div>
+
+            <div>
+                SYSTEM SECURE
+            </div>
+
+        </footer>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
